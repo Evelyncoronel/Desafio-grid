@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/**/
+@media only screen and (max-width:400px) {
+    body {
+        background-color: #fff;
+    }
+}
+/*desktop*/
+@media only screen and (min-width: 969px) {
+    body {
+        background-color: #fff
+    }
+}
+/*tablet*/
+@media only screen and (min-width: 481px) and (max-width: 968px){
+    body {
+        background-color: #fff;
+    }
+}
+
+
+/*Header*/
+.grid-container {
+    background-color: #FCD8D4;
+    display: grid;
+    grid-column: 1/1;
+}
+
+.grid-uno {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    background-color: #FCD8D4;
+}
+/*Fin header*/
+
+
+.grid-dos {
+    background-color: black;
+    display: grid;
+    grid-template-rows: 20px 100px;
+    grid-template-columns: 1fr;
+}
+.banner-sale {
+    display: flex;
+    justify-content: center;
+    transition: all 5s;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+    margin-top: 15px;
+    transition: all 5s;
+}
+
+.productos {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.name-products {
+    display: flex;
+    justify-content: space-around;
+    height:200px;    
+}
+
+/*Fin de body*/
+
+/*Footer*/
+
+/*ICONO DE WPP EN SCROLL A LA DERECHA*/
+.item-fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+}
+.pie-de-pag {
+    background-color: #fcd1c6;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.redes {
+    position: relative;
+    padding-right: 10%;
+    display: grid;
+    grid-template-rows: 60px;
+}
+
+.redes a {
+    padding-top: 100px;
+    padding-bottom: 20%;
+}
+
+
+.maps {
+    position: relative;
+    padding-left: 30px;
+}
+
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    background-color: #fcd1c6;
+    
+}
